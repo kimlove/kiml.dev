@@ -5,6 +5,7 @@ import SEO from '../../components/seo';
 
 import WorkProject from '../../components/work/workProject';
 import WorkTitle from '../../components/work/workTitle';
+import WorkSkills from '../../components/work/workSkills';
 import WorkBody from '../../components/work/workBody';
 import WorkImages from '../../components/work/workImages';
 import WorkFooter from '../../components/work/workFooter';
@@ -20,6 +21,9 @@ const ProjectPage = () => (
         title={projectName}
         year="2018—2020"
         extLink="https://www.truly.co.uk/"
+      />
+      <WorkSkills
+        skills={['React', 'JavaScript (ES6)', 'JSON API', 'RWD', 'SCSS']}
       />
       <WorkBody>
         <p>Originally a partnership between Holly Willoughby and Peter Jones, Truly is a lifestyle brand focusing on fashion and homewares. While Holly stepped away for personal reasons during development, the brand successfully launched in November 2018.</p>

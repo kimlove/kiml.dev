@@ -5,6 +5,7 @@ import SEO from '../../components/seo';
 
 import WorkProject from '../../components/work/workProject';
 import WorkTitle from '../../components/work/workTitle';
+import WorkSkills from '../../components/work/workSkills';
 import WorkBody from '../../components/work/workBody';
 import WorkImages from '../../components/work/workImages';
 import WorkFooter from '../../components/work/workFooter';
@@ -20,6 +21,9 @@ const ProjectPage = () => (
         title={projectName}
         year="2019&mdash;2020"
         extLink="private"
+      />
+      <WorkSkills
+        skills={['React', 'JavaScript (ES6)', 'Styled Components', 'JSON API', 'RWD']}
       />
       <WorkBody>
         <p>The Brandpath fulfilment team in Hong Kong do a lot of stock reprocessing for Google in Asia such as labelling / packaging / checking stock condition and so on. Up to now, most of this had been managed with spreadsheets which was proving to be cumbersome, especially when dealing with thousands of items.</p>

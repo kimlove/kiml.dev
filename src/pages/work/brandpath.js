@@ -5,6 +5,7 @@ import SEO from '../../components/seo';
 
 import WorkProject from '../../components/work/workProject';
 import WorkTitle from '../../components/work/workTitle';
+import WorkSkills from '../../components/work/workSkills';
 import WorkBody from '../../components/work/workBody';
 import WorkImages from '../../components/work/workImages';
 import WorkFooter from '../../components/work/workFooter';
@@ -20,6 +21,9 @@ const ProjectPage = () => (
         title={projectName}
         year="2018"
         extLink="https://www.brandpath.com/"
+      />
+      <WorkSkills
+        skills={['Gatsby', 'React', 'JavaScript (ES6)', 'SCSS', 'RWD']}
       />
       <WorkBody>
         <p>I’d been looking a React for a while, but hadn&apos;t had the chance to use on a live project&hellip;</p>

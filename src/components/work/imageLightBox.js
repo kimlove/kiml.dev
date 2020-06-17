@@ -66,7 +66,10 @@ const ImageLightBox = ({
         {currentImage && (
           <Image>
             <ImageDesc>{currentImage.desc}</ImageDesc>
-            <img src={currentImage.path} alt={`${name} screenshot ${currentImage.index}`} />
+            <picture>
+              <source srcSet={currentImage.path.replace('.jpg', '.webp')} type="image/webp" />
+              <img src={currentImage.path} alt={`${name} screenshot ${currentImage.index}`} />
+            </picture>
             <ImageInfo className="reset-list">
               <li>{name}</li>
               <li>{`${currentImage.index}/${images.length}`}</li>

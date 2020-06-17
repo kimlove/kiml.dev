@@ -33,7 +33,7 @@ const WorkItem = ({
       <Image>
         <picture>
           <source srcSet={image.replace('.jpg', '.webp')} type="image/webp" />
-          <img src={image.replace('.jpg', '.jpg')} alt="" />
+          <img src={image} alt={title} />
         </picture>
         <More className="more">More &gt;</More>
       </Image>

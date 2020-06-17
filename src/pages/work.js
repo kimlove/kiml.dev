@@ -15,6 +15,30 @@ const IndexPage = () => (
       <Title titleText="Featured projects" type="medium" />
     </WorkIndexTitle>
 
+
+    <WorkIndexItem>
+      <FeaturedIndexItem
+        year="2018-2020"
+        title="Truly"
+        subtitle="ecommerce / fashion"
+        skills={['React', 'JavaScript (ES6)', 'JSON API', 'RWD', 'SCSS']}
+        link="/work/truly/"
+        image="/images/work/index/truly.jpg"
+      />
+    </WorkIndexItem>
+
+    
+    <WorkIndexItem>
+      <FeaturedIndexItem
+        year="2019-2020"
+        title="Google VAS"
+        subtitle="internal SPA"
+        skills={['React', 'JavaScript (ES6)', 'Styled Components', 'JSON API', 'RWD']}
+        link="/work/google-vas/"
+        image="/images/work/index/google-vas.jpg"
+      />
+    </WorkIndexItem>
+
     <WorkIndexItem>
       <FeaturedIndexItem
         year="2006-2015"
@@ -49,28 +73,6 @@ const IndexPage = () => (
       />
     </WorkIndexItem>
     
-    <WorkIndexItem>
-      <FeaturedIndexItem
-        year="2018-2020"
-        title="Truly"
-        subtitle="ecommerce / fashion"
-        skills={['React', 'JavaScript (ES6)', 'JSON API', 'RWD', 'SCSS']}
-        link="/work/truly/"
-        image="/images/work/index/truly.jpg"
-      />
-    </WorkIndexItem>
-
-    <WorkIndexItem>
-      <FeaturedIndexItem
-        year="2019-2020"
-        title="Google VAS"
-        subtitle="internal SPA"
-        skills={['React', 'JavaScript (ES6)', 'Styled Components', 'JSON API', 'RWD']}
-        link="/work/google-vas/"
-        image="/images/work/index/google-vas.jpg"
-      />
-    </WorkIndexItem>
-
     <WorkIndexItem>
       <FeaturedIndexItem
         year="2018"

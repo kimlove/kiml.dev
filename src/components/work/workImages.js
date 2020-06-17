@@ -20,7 +20,7 @@ const WorkImages = ({ images, name }) => {
         <ul className="reset-list">
           {images && images.map((image, index) => (
             <li
-              key={index.path}
+              key={image.path}
             >
               <button type="button" onClick={() => toggleImageLightBox(index)}>
                 <picture>

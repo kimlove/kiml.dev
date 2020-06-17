@@ -49,18 +49,3 @@ const ProjectPage = () => (
 );
 
 export default ProjectPage;
-
-/*
-
-images={[
-        { path: `${imagePath}expansys8.jpg`, desc: '2020: Current site, using tweaked 2015 layout' },
-        { path: `${imagePath}expansys7.jpg`, desc: '2015: Full responsive redesign / launched in South Korea' },
-        { path: `${imagePath}expansys6.jpg`, desc: '2011: Complete site redesign (fixed width) / new hero banners' },
-        { path: `${imagePath}expansys5.jpg`, desc: '2010: New logo / colour scheme and header tweaks' },
-        { path: `${imagePath}expansys4.jpg`, desc: '2009: Moved to tab based category nav / push top sellers' },
-        { path: `${imagePath}expansys3.jpg`, desc: '2007: Simplified left nav / some changes to declutter' },
-        { path: `${imagePath}expansys2.jpg`, desc: 'late 2006: Minor layout changes / updated site to use CSS styling' },
-        { path: `${imagePath}expansys1.jpg`, desc: 'mid 2006: Homepage layout prior to starting at Expansys' },
-      ]}
-
-      */

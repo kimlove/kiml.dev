@@ -21,7 +21,7 @@ const ProjectPage = () => (
         year="2015—2017"
       />
       <WorkBody>
-        <p>Our team was given the project to rebuild and host the Samsung UK store on the Expansys platform with a strict 10 week deadline.</p>
+        <p>Our team was given the project to rebuild and host the Samsung UK store on the Expansys platform with a strict 6 week deadline.</p>
         <p>Samsung’s existing ecommerce site, while functional was apparently too restrictive. They were looking for a more flexible solution so they could customise their offering to customers with regular updates, bundles, themed promos and special deals.</p>
         <p>One of the key requirements was to recreate the current Samsung UK layout, as customers would need to move between the two sites seamlessly. Relatively straightforward, but required attention to detail to ensure this performed as smoothly as possible across mobile, tablet and desktop.</p>
         <p>The project launched successfully on time and helped Samsung boost their online sales by 200% in the first 12 months vs. their previous store!</p>

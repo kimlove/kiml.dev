@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 
 import Title from '../components/shared/title';
 import FeaturedIndexItem from '../components/work/featuredIndexItem';
-import PastProjects from '../components/work/otherProjects';
+import OtherProjects from '../components/work/otherProjects';
 
 const IndexPage = () => (
   <Layout>
@@ -88,7 +88,7 @@ const IndexPage = () => (
       <Title titleText="Other Projects" type="medium" />
     </WorkIndexTitle>
 
-    <PastProjects />
+    <OtherProjects />
   </Layout>
 );
 
@@ -110,6 +110,7 @@ const WorkIndexTitle = styled.div`
 const WorkIndexItem = styled.section`
   grid-column: span 12;
   font-family: 'Merriweather', serif;
+  width: 100%;
   max-width: 36em;
   margin: 0 auto;
   @media (min-width: ${(props) => props.theme.mq.medium}) {

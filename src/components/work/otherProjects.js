@@ -24,7 +24,7 @@ const OtherProject = ({
     {skills && (
       <Skills className="reset-list">
         {skills.map((skill) => (
-          <li>{skill}</li>
+          <li key={skill}>{skill}</li>
         ))}
       </Skills>
     )}
@@ -143,8 +143,13 @@ const OtherProjects = () => (
 export default OtherProjects;
 
 OtherProject.propTypes = {
+  year: PropTypes.string.isRequired,
+  client: PropTypes.string.isRequired,
+  subject: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
+  skills: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
+
 
 const OtherProjectItem = styled.div`
   grid-column: span 12;

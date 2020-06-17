@@ -5,6 +5,7 @@ import SEO from '../../components/seo';
 
 import WorkProject from '../../components/work/workProject';
 import WorkTitle from '../../components/work/workTitle';
+import WorkSkills from '../../components/work/workSkills';
 import WorkBody from '../../components/work/workBody';
 import WorkImages from '../../components/work/workImages';
 import WorkFooter from '../../components/work/workFooter';
@@ -20,6 +21,9 @@ const ProjectPage = () => (
         title={projectName}
         year="2006—2016"
         extLink="https://www.expansys.jp/"
+      />
+      <WorkSkills
+        skills={['UI Design', 'RWD', 'JavaScript', 'CSS/SCSS', 'Multilingual']}
       />
       <WorkBody>
         <p>While Expansys had seen massive growth in the PDA / technology sector during first half of the 2000s, the look and feel of their multi-region/language ecommerce sites hadn’t changed significantly since they launched in 1999.</p>

@@ -5,6 +5,7 @@ import SEO from '../../components/seo';
 
 import WorkProject from '../../components/work/workProject';
 import WorkTitle from '../../components/work/workTitle';
+import WorkSkills from '../../components/work/workSkills';
 import WorkBody from '../../components/work/workBody';
 import WorkImages from '../../components/work/workImages';
 import WorkFooter from '../../components/work/workFooter';
@@ -19,6 +20,9 @@ const ProjectPage = () => (
       <WorkTitle
         title={projectName}
         year="2015—2017"
+      />
+      <WorkSkills
+        skills={['UI Design', 'RWD', 'JavaScript', 'CSS/SCSS', 'HTML']}
       />
       <WorkBody>
         <p>After doing a couple of small bespoke projects with Huawei previously, we were given the brief to put together a group of European ecommerce sites collectively known as vMall in 2015, selling Honor and Huawei branded devices and accessories.</p>

@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-
 const WorkItem = ({
   year,
   title,
@@ -70,6 +69,7 @@ const More = styled.div`
 const Container = styled.div`
   position: relative;
   font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
   > a {
     &:hover,&:active,&:focus {
       img {
@@ -144,7 +144,12 @@ const Skills = styled.li`
 const Image = styled.div`
   position:relative;
   margin-left: calc(25% + .475rem);
+  width: calc(75% - .475rem);
+  padding-top: calc(75% - .475rem);
+  background: rgba(255,255,255,.05);
   img {
+    position: absolute;
+    top:0;
     opacity: .5;
     filter: grayscale(1) invert(.15) brightness(.9);
     opacity: .75;

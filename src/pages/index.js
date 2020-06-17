@@ -15,7 +15,7 @@ const IndexPage = () => (
       <CopyBlock>
         <p><strong>Hey. I’m Kim, a creative Front-End developer with an extensive background designing &amp; building ecommerce websites. I&apos;m based in Manchester, UK.</strong></p>
         <p>With over 20 years of web experience in design and development, I&apos;ve led front-end development on projects for some of the world&apos;s biggest technology brands including Samsung, Huawei, Microsoft &amp; Google.</p>
-        <p>I am currently working as a front-end developer with a strong working of knowledge React &amp; Javascript, along with the new styling opportunities this enables, such as Styled Components / CSS-in-JS.</p>
+        <p>I am currently employed as a Front-End developer with a strong working of knowledge React &amp; JavaScript, along with the new styling opportunities this enables, such as Styled Components / CSS-in-JS.</p>
         <p>And lastly, a quick note to say thanks for dropping by!</p>
       </CopyBlock>
     <Tag>

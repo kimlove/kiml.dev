@@ -31,9 +31,10 @@ const WorkItem = ({
         )}
       </Info>
       <Image>
-        <span>
-          <img src={image} alt={title} />
-        </span>
+        <picture>
+          <source srcSet={image.replace('.jpg', '.webp')} type="image/webp" />
+          <img src={image.replace('.jpg', '.jpg')} alt="" />
+        </picture>
         <More className="more">More &gt;</More>
       </Image>
     </Link>

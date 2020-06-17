@@ -110,6 +110,7 @@ const WorkIndexTitle = styled.div`
 const WorkIndexItem = styled.section`
   grid-column: span 12;
   font-family: 'Merriweather', serif;
+  width: 100%;
   max-width: 36em;
   margin: 0 auto;
   @media (min-width: ${(props) => props.theme.mq.medium}) {

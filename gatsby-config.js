@@ -38,8 +38,13 @@ module.exports = {
         icon: `src/images/kl-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-exclude',
+      options: { paths: ['/work/**'] },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-headers`, // make sure to put last in the array // https://www.gatsbyjs.org/packages/gatsby-plugin-netlify-headers/
   ],
-}
+};

@@ -1,5 +1,5 @@
 module.exports = {
-  stories: ['../src/**/*.stories.[tj]s'],
+  stories: ['../src/welcome.stories.js','../src/**/*.stories.[tj]s'],
   addons: ['@storybook/addon-actions', '@storybook/addon-links'],
   // Add Gatsby loader >>> https://www.gatsbyjs.org/docs/visual-testing-with-storybook/
   webpackFinal: async config => {

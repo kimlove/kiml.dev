@@ -25,7 +25,6 @@ const Button = ({
 
 export default Button;
 
-
 Button.defaultProps = {
   disabled: false,
   to: null,
